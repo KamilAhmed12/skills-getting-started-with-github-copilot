@@ -74,6 +74,26 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants list styling */
+.participants-list {
+  list-style: disc;
+  margin: 10px 0 0 20px;
+  padding: 0;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.participants-list li {
+  background: #ffffff;
+  border: 1px solid #eee;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
